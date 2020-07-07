@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+h1 {
+color: rgb(240, 238, 128);
+text-align: center;
+font-family: sans-serif;
+font-style: oblique;
+}
+
+img{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    width: 13em;
+    height: 13em;
+    margin-bottom: 2.5em;
+    box-shadow: 0 0 0 0.7em rgb(226, 215, 215);
+    
+}
+
+h2 {
+    color:hsl(245, 45%, 34%);
+    text-align: center;  
+    font-size: 1em;
+    margin-bottom: 0.5em;
+   
+}
+
+h3{
+    color: rgba(128, 240, 221, 0.815);
+text-align: center;
+ font-size: 0.75em;
+ margin-bottom: 5em;
+}
+
+
+button{
+   width: 12em;
+   height: 2.5em;
+   
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 0.9em;
+    color:  white;
+background-color:hsl(245, 45%, 34%);
+padding: 0.3em;
+border-radius: 0.6em;
+
+
+
+
+}
