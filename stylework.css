@@ -1,58 +1,53 @@
 body{
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans';
 }
-
-
-h1 {
-color: rgb(240, 238, 128);
-text-align: center;
-font-family: sans-serif;
-font-style: oblique;
-}
-
-img{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50%;
-    width: 13em;
-    height: 13em;
-    margin-bottom: 2.5em;
-    box-shadow: 0 0 0 0.7em rgb(226, 215, 215);
-    
-}
-
-h2 {
-    color:hsl(245, 45%, 34%);
-    text-align: center;  
-    font-size: 1em;
-    margin-bottom: 0.5em;
-   
-}
-
-h3{
-    color: rgba(128, 240, 221, 0.815);
-text-align: center;
- font-size: 0.75em;
- margin-bottom: 5em;
-}
-
 
 button{
-   width: 12em;
-   height: 2.5em;
-   
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 0.9em;
-    color:  white;
-background-color:hsl(245, 45%, 34%);
-padding: 0.3em;
-border-radius: 0.6em;
+    border: none;
+    background: transparent;
+}
 
+.user-card{
+    text-align: center;
+    width: 400px;
+    margin: 0  auto;
+    font-weight: 600;
+    font-size: 16px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2.5em;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 12px solid hsl(244, 48%, 94%);    
+}
+.photo img{
+    height: 100%;
+}
+.name{
+    font-size: 1em;
+    margin-bottom:0.5em;
+    color: hsl(249, 33%, 34%);
+}
+.info{
+    font-size: 0.75em;
+    margin-bottom: 5em;
+    color: hsl(198, 9%, 35%);
+}
+.info-separator{
+    padding: 0 2px;
+}
 
-
-
+.messedge-action{
+    font-size: 0.875em;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    background: hsl(249, 33%, 34%);
+    max-width: 200px;
+    padding: 0.5em;
+    margin: 0 auto;
+    border-radius: 0.5em;
+}
 }
